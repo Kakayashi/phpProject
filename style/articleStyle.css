@@ -1,0 +1,133 @@
+#articleBigWrapper {
+    width: 90%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212529;
+    margin: 40px auto;
+    border-radius: 15px;
+    color: white;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#articleInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #666;
+}
+
+#articleData {
+    font-size: 15px;
+    margin-left: -20px;
+}
+
+#articleViews {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#articleTextArea {
+    font-size: 20px;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#aricleImg2 {
+    width: 60vw;
+    height: 500px;
+    margin-top: 40px;
+}
+
+#aricleImg2 img {
+    width: 60vw;
+    height: 500px;
+}
+
+@media (max-width: 900px) {
+    #aricleImg2 {
+        width: 60vw;
+        height: 300px;
+        margin-top: 40px;
+    }
+
+    #aricleImg2 img {
+        width: 60vw;
+        height: 300px;
+    }
+}
+
+
+#addComentWrapper {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212529;
+    height: 340px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+
+#formSubmitWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#addComentTitle {
+    color: aliceblue;
+    font-size: 40px;
+    margin: 10px;
+}
+
+#text {
+    width: 25vw;
+    min-width: 250px;
+}
+
+#commentsWrapper {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment {
+    background-color: #212529;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.commentInformation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comentTitle {
+    font-size: 40px;
+}
+
+
+.comentData {
+    color: #666;
+    font-size: 20px;
+    margin-left: 20px;
+    transform: translateY(30%);
+}
